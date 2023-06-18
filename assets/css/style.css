@@ -906,7 +906,7 @@ section {
   opacity: 0;
   position: absolute;
   left: 15px;
-  bottom: 0;
+  top: 0;
   z-index: 3;
   right: 15px;
   transition: all ease-in-out 0.3s;
@@ -1018,6 +1018,12 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+.enlace{
+  position: absolute;
+  top: -19px;
+  right: -5px;
 }
 
 /*--------------------------------------------------------------
